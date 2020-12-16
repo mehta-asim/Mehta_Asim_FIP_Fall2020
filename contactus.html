@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>A Bottles</title>
+
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+
+</head>
+
+<body>
+<div id="topBar"></div><!--end topBar-->
+
+	<div id="siteContainer">
+
+
+        <h1 class="hidden">A Bottles</h1>
+
+    	<header id="mainHeader">
+
+            <div class="logo">
+
+                <a href="index.html">
+
+                 <img src="images/logo.svg" width="110" height="165" alt="logo of a bottles">
+
+                </a>
+
+            </div><!--end logo-->
+
+            <nav class="mainNav">
+
+                <h2 class="hidden">Main Navigation</h2>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">BRANDS</a></li>
+                    <li><a href="ourbottles.html">OUR BOTTLES</a></li>
+                    <li class="selected"><a href="contactus.html">CONTACT US</a></li>
+
+                </ul>
+
+            </nav><!--end mainNav-->
+
+        </header><!--end mainHeader-->
+
+        <section class="contactUs">
+            <h2>Contact Us</h2>
+            <section id="contactArea">
+                <h3 class="hidden">Contact Form</h3>
+                <p>For any questions or more information you can use the form below to contact us.</p>
+                <form action="form.php" method="post">
+                    <input type="text" required id="firstname" placeholder="Enter your First Name">
+                    <input type="text" required id="lastname" placeholder="Enter your Last Name">
+                    <input type="email" required id="email" placeholder="Enter your Email">
+                    <input type="tel" required id="phone" placeholder="Enter your Phone Number">
+
+                    <label for="query"><span>How can we help you?</span></label>
+                    <textarea required id="query" placeholder="type here...."></textarea>
+
+                    <label id="commenttext" for="comment"><span>Any other suggestions/comments?</span></label>
+                    <textarea id="comment" placeholder="type here...."></textarea>
+
+                    <input id="submit" type="submit" name="Submit">
+                </form>
+
+            </section>
+
+            <div class="visitMap">
+
+                <section class="emailTime">
+                    <h3 class="hidden">Email and Phone</h3>
+                    <p>You can also contact us via:</p>
+                    <ul>
+                        <li>Email: posterguys@abc.com</li>
+                        <li>Phone: 226-428-8952</li>
+                    </ul>
+                    <p>Timings:</p>
+                    <ul>
+                        <li><span>Monday - Friday</span></li>
+                        <li><span>10:00 AM - 05:00 PM</span></li>
+                    </ul>
+                </section>  
+
+                <section class="visit">
+                    <h3 class="hidden">Visit Us</h3>
+                    <p>Or you can visit us at:</p>
+                    <ul>
+                        <li>285 King St,</li>
+                        <li>London,</li>
+                        <li>ON N6B 3M6</li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.747571335883!2d-81.24628468422462!3d42.983590803487495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21ae1a0b53b%3A0x199b8e22aec6fb2b!2s285%20King%20St%2C%20London%2C%20ON%20N6B%203M6%2C%20Canada!5e0!3m2!1sen!2sin!4v1604012275497!5m2!1sen!2sin" width="380" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </section>
+
+            </div>
+
+        </section>
+
+        <footer id="mainFooter">
+
+            <div class="socialNav">
+
+                <nav class="footerNav">
+
+                    <h2 class="hidden">Footer Navigation</h2>
+
+                        <ul>
+
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#">BRANDS</a></li>
+                            <li><a href="ourbottles.html">OUR BOTTLES</a></li>
+                            <li class="selectedFooter"><a href="contactus.html">CONTACT US</a></li>
+
+                        </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="logoCopyright">
+                <div class="socialmedia">
+
+                        <h2 class="hidden">Social Media</h2>
+
+                        <ul>
+
+                            <li id="twitter">
+                              <a href="#">
+                                <img src="images/twitter.png" alt="twitter" height="40" width="40">
+                              </a>
+                            </li>
+
+                            <li id="youtube">
+                              <a href="#">
+                                <img src="images/youtube.png" alt="youtube" height="40" width="40">
+                              </a>
+                            </li>
+
+                            <li id="facebook">
+                              <a href="#">
+                                <img src="images/facebook.png" alt="facebook" height="40" width="40">
+                              </a>
+                            </li>
+
+                           <li id="instagram">
+                              <a href="#">
+                                <img src="images/instagram.png" alt="instagram" height="40" width="40">
+                              </a>
+                           </li>
+
+                        </ul>
+
+                    </div>
+
+                <div id="copyRight"><p>© A Bottles</p></div><!--end Copyright-->
+
+            </div>
+
+        </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+<script src="js/main.js"></script>    
+</body>
+</html>
