@@ -1,5 +1,3 @@
-[![MIT License][license-shield]][license-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -114,7 +112,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Asim Mehta<br>
 Project Link: [https://github.com/mehta-asim/Mehta_Asim_FIP_Fall2020](https://github.com/mehta-asim/Mehta_Asim_FIP_Fall2020)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/mehta-asim/repo.svg?style=for-the-badge
-[license-url]: https://github.com/mehta-asim/Mehta_Asim_FIP_Fall2020/blob/master/LICENSE.txt
