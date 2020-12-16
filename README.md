@@ -117,4 +117,4 @@ Project Link: [https://github.com/mehta-asim/Mehta_Asim_FIP_Fall2020](https://gi
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/mehta-asim/repo.svg?style=for-the-badge
-[license-url]: https://github.com/mehta-asim/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/mehta-asim/Mehta_Asim_FIP_Fall2020/blob/master/LICENSE
