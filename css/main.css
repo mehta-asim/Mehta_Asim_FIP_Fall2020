@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none;
+	margin: 0; 
+	padding: 0; 
+}
+
+body 
+{
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none; 	
+}
+
+a:hover, a:active 
+{ 
+	text-decoration:none; 
+}
+
+
+.hidden
+{
+	display: none;
+}
+
+#topBar
+{
+	background-color: #2E78A6;
+	height: 20px;
+	width: 980px;
+	margin: 0 auto;
+}
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 980px;
+	background-color: #F4F4F4;
+	padding-bottom: 40px;
+}
+
+#mainHeader
+{
+	
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-end;
+	border-bottom: solid 1px #DDD;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.logo
+{
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+
+
+.mainNav 
+{
+	margin-top: 85px;
+	margin-left: auto;
+}
+
+.mainNav ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.mainNav ul li
+{
+	font-size: 16px;
+	display: inline;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.mainNav ul li a
+{
+	color: #2E78A6;
+	padding: 5px;
+}
+
+.mainNav ul li a:hover
+{
+	border-bottom: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #2E78A6; 
+}
+
+.selected
+{
+	padding: 5px 0px 5px 0px;
+	background-color: #BFDFEF;
+}
+
+#promo 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 251px;
+	width: 940px;
+	background: url(../images/promo.jpg) no-repeat;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: 2px 2px 8px #2E78A6;
+}
+
+#promo h3
+{
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	color: #D8E8EF;
+	text-shadow: 3px 3px 4px #000;
+}
+
+#productInfo 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+}
+
+.productDesc 
+{
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.productDesc a
+{
+	font-size: 18px;
+	font-weight: 800; 
+	color: #205772;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+
+.productDesc p
+{
+	font-size: 16px;
+	color: #205772;
+}
+
+
+.productDesc img
+{
+	box-shadow: 2px 2px 8px #2E78A6;
+	margin-bottom: 10px;
+}
+
+#mainFooter 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+  	width: 940px;
+  	height: 103px;
+  	margin-left: 20px;
+  	background-color: #B1D9E8;
+}
+
+.socialNav
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 10px;
+}
+
+.footerNav ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footerNav ul li
+{
+	font-size: 14px;
+	display: inline;
+	font-weight: bold;
+	margin-right: 18px;
+}
+
+.footerNav ul li a
+{
+	color: #205772;
+	padding: 5px;
+}
+
+.footerNav ul li a:hover
+{
+	border-bottom: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #205772;
+}
+
+.selectedFooter 
+{
+	padding: 5px 0px 5px 0px;
+	background-color: #F4F4F4; 
+}
+
+.logoCopyright
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.socialmedia
+{
+	margin-top: 0px;
+}
+
+.socialmedia ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.socialmedia ul li
+{
+	display: inline;
+	margin-left: 15px;
+}
+
+#copyRight
+{
+
+	color: #2E78A6;
+	text-align: right;
+	margin-top: 10px;
+	font-size: 10px;
+}
+/*Paage 2 - Our Bottles*/
+
+
+#bottleInfo
+{
+	margin-top: 40px;
+}
+
+.bottleDesc
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.bottleDesc img
+{
+	box-shadow: 2px 2px 8px #2E78A6;
+}
+
+.bottleText
+{
+	margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.bottleText h4
+{
+	color: #2E78A6;
+	margin-top: 0px;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.bottleText p
+{
+	color: #2E78A6;
+	font-size: 25px;
+}
+
+/*Page 3 - Contact Us*/
+
+.contactUs
+{
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-evenly;
+  	flex-wrap: wrap;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	color: #2E78A6;
+}
+
+.contactUs h2
+{
+	font-size: 30px;
+	margin-bottom: 40px;
+	width: 980px;
+	padding: 8px 0px 8px 5px;
+}
+
+#contactArea
+{
+	width: 469px;
+	border-right: solid 1px #ccc;
+	margin-bottom: 30px;
+}
+
+#contactArea p
+{
+	font-size:25px;
+}
+
+input, textarea
+{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+	font-size: 15px
+}
+
+#query
+{
+	padding: 50px 20px 20px 0px;
+}
+
+
+#comment
+{
+	padding: 50px 20px 20px 0px;
+}
+
+
+
+#submit 
+{
+	width: 75px;
+	height: 30px;
+	background-color: #2E78A6;
+	padding: 5px 10px 5px 10px;
+	margin-top: 30px;
+	font-size: 14px;
+	color: #F4F4F4;
+	border: 1px solid #000;
+	font-weight: bold;
+}
+
+.visitMap
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+  	justify-content: flex-start;
+}
+
+.visitMap p
+{
+	font-size: 20px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+
+.emailTime ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.emailTime ul li
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.visit ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.visit ul li
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+span
+{
+	font-size: 15px;
+	text-align: center;
+}
